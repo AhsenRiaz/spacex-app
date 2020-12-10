@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {InMemoryCache,ApolloProvider} from "@apollo/client";
 import {ApolloClient} from '@apollo/client'
+import swDev from "./swDev"
 
 const client = new ApolloClient({
   uri : "https://spacexdata.herokuapp.com/graphql",
@@ -24,3 +25,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+swDev()

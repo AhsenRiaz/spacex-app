@@ -12,6 +12,7 @@
     "@types/node": "^12.19.8",
     "@types/react-dom": "^16.9.8",
     "bootstrap": "^4.5.3",
+    "firebase": "^8.1.2",
     "graphql": "^15.4.0",
     "graphql-tag": "^2.11.0",
     "history": "^5.0.0",
