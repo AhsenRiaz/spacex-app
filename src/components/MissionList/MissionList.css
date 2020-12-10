@@ -1,0 +1,82 @@
+#loader {
+  display: flex;
+  width: 100%;
+  height: 98vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.MissionImg{
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.MissionList_wrapper {
+  background-color: black;
+  padding-top: 60rem;
+}
+
+.MissionImg {
+  background-image: url("./Images/MissionList.webp");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.MissionList_Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.MissionList_wrapper{
+    padding-bottom: 4rem;
+}
+
+.MissionList_Heading_typo{
+    color: white;
+}
+
+.MissionText_div{
+    border: 2px solid white;
+    padding: 10px 50px;
+}
+
+.MissionList_div {
+    border: 2px solid white;
+}
+
+.makeStyles-paper-2 { 
+    max-height: 22rem;
+    height: 19rem;
+    /* padding-top: 2rem; */
+}
+
+ a{
+    text-decoration: none !important;
+}
+
+.MissionList_year{
+    padding-top: 1rem;
+}
+
+.Mission_button{
+        margin-top: 2.5rem;
+}
+
+.MissionName{
+    color: white;
+    padding-top: 2rem;
+}
+
+.MuiPaper-root{
+    background-color: #131313ed !important;
+}

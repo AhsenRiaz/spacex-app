@@ -1,0 +1,96 @@
+/* .Home_main{
+    background-image: url("./Images/Home4.jpg");
+
+  width: 100vw;
+  height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+} */
+
+.Home_main{
+    background-image: url("./Images/Home4.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+ #Home_mainText{
+    color: wheat;
+    position: relative;
+    top: 300px;
+   
+}
+.makeStyles-root-3{
+    width: 400px;
+}
+
+.Home_Button button{
+    margin-top: 2rem;
+    padding: 20px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: large;
+    transition: 0.5s ease-in-out;
+    border-radius: 4px;
+}
+
+.Home_Button button:hover{
+      background-color: whitesmoke;
+      color: black;
+      border: 2px solid black;
+}
+
+
+
+/* ****************** */
+
+.Home_second{
+    background-image: url("./Images/secondImage.webp");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+ #Home_secondText{
+    color: wheat;
+    position: relative;
+    top: 300px;
+   
+}
+
+.Home_secondButton button{
+    margin-top: 2rem;
+    padding: 16px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: large;
+    transition: 0.5s ease-in-out;
+}
+
+.Home_secondButton button:hover{
+      background-color: whitesmoke;
+      color: black;
+}
+
+ @media (max-width:762px){
+  .Home_Button button{
+    padding: 10px 10px ;     
+  }
+  .Home_secondButton button{
+      padding: 10px 10px ;
+  }
+}

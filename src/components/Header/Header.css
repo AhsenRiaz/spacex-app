@@ -1,0 +1,38 @@
+
+.navbar-nav a {color: white;
+  font-size: 20px;
+  text-decoration: none !important;
+  color: silver !important;
+  /* border: 2px solid red; */
+  padding-bottom: 5px !important;
+  /* border: 2px solid red; */
+  position: relative;
+  
+}
+
+
+
+.menu1{
+    border: 1px solid black;
+    margin-right: 1rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+.menu2{
+    border: 1px solid black;
+    margin-right: 1rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+
+.menu1:hover{
+  background:rgb(80, 80, 80) ;
+}
+
+.menu2:hover{
+  background:rgb(80, 80, 80) ;
+}

@@ -1,0 +1,112 @@
+.Image_div{
+    background-image: url("./Images/MissionDetails.webp");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#loader {
+    display: flex;
+    width: 99vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+.MainDetails_wrapper{
+    background-color: black;
+}
+
+
+.Image_div_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Image_typo{
+      border: 2px solid white;
+      color: white;
+      padding: 15px 30px;
+  }
+
+.MissionDetails_info{
+    padding-top: 2rem;
+    border: 2px solid white ;
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+    
+}
+
+.MissionDetails_wrapper{
+    background-color:black;
+}
+
+.MissionDetails_heading{
+    color: white;
+    text-align: center;
+}
+
+.MissionDetails_details{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.MissionDetails_success{
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.MissionDetails__site{
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.MissionDetails_Rocket{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.MissionDetails_flight{
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.MissionInfo_wrapper{
+    border: 2px solid rebeccapurple;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
+    color: rgb(133, 133, 133);
+    
+    
+}
+
+.MainDetails_wrapper{
+    padding-bottom: 4rem;
+}
+
+.MissionDetails_images{
+    color: white;
+    padding-top: 3rem;
+    text-align:  center;
+}
+.MissionDetails_images img{
+    padding: 4px 3px ;
+}
+
+#images{
+    padding-top: 2rem;
+}
+
+
